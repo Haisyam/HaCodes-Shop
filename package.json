@@ -1,0 +1,23 @@
+{
+  "name": "codebayo-clone",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/style/input.css -o ./src/style/output.css --watch"
+  },
+  "keywords": [],
+  "author": "Haisyam",
+  "license": "ISC",
+  "description": "Slicing clone website codebayo.vercel.app",
+  "devDependencies": {
+    "@iconify/json": "^2.2.280",
+    "@iconify/tailwind": "^1.2.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.16"
+  },
+  "dependencies": {
+    "flyonui": "^1.1.0"
+  }
+}
