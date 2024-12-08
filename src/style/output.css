@@ -5506,6 +5506,11 @@ textarea:focus-visible {
   padding-bottom: 1.25rem;
 }
 
+.py-7 {
+  padding-top: 1.75rem;
+  padding-bottom: 1.75rem;
+}
+
 .pb-4 {
   padding-bottom: 1rem;
 }
@@ -5921,6 +5926,10 @@ textarea:focus-visible {
 
   .md\:mt-10 {
     margin-top: 2.5rem;
+  }
+
+  .md\:h-\[1px\] {
+    height: 1px;
   }
 
   .md\:grid-cols-3 {
