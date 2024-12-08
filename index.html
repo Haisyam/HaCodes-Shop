@@ -27,8 +27,8 @@
       </div>
       <div class="navbar-center max-sm:hidden">
         <ul class="menu menu-horizontal p-0 font-medium bg-transparent">
-          <li><a href="#" class="text-purple-700">Home</a></li>
-          <li><a href="#">Product</a></li>
+          <li><a href="" class="text-purple-700">Home</a></li>
+          <li><a href="#product">Product</a></li>
         </ul>
       </div>
       <div class="navbar-end items-center gap-4 md:mr-32">
@@ -62,8 +62,8 @@
             aria-orientation="vertical"
             aria-labelledby="dropdown-default"
           >
-            <li><a class="dropdown-item" href="#">Home</a></li>
-            <li><a class="dropdown-item" href="#">Product</a></li>
+            <li><a class="dropdown-item" href="">Home</a></li>
+            <li><a class="dropdown-item" href="#product">Product</a></li>
           </ul>
         </div>
       </div>
@@ -71,6 +71,7 @@
     <section class="px-5 mt-[30px] md:mt-10 mb-28">
       <div class="flex flex-col justify-center items-center">
         <button
+          id="hubungi"
           class="text-gradient font-normal text-xs btn btn-primary btn-outline rounded-full mb-4"
         >
           <p>
@@ -91,10 +92,13 @@
           mulai proyek Anda tanpa ribet!
         </p>
         <div class="">
-          <button class="btn bg-gradient-1 rounded-lg text-white">
+          <a href="#product" class="btn bg-gradient-1 rounded-lg text-white">
             Cek Produk
-          </button>
-          <button class="btn btn-soft btn-primary btn-outline rounded-lg">
+          </a>
+          <button
+            id="hubungi-2"
+            class="btn btn-soft btn-primary btn-outline rounded-lg"
+          >
             👋 Hubungi Kami
           </button>
         </div>
@@ -156,7 +160,7 @@
       </div>
     </section>
     <!-- SECTION -->
-    <section class="">
+    <section id="product" class="">
       <div class="flex flex-row justify-between px-7 md:px-36">
         <h2
           class="text-gradient font-semibold text-md md:text-3xl text-center mb-4"
@@ -278,6 +282,7 @@
             Produk Rekomendasi
           </h2>
           <button
+            id="hubungi-3"
             class="text-gradient font-normal text-xs btn btn-primary btn-outline rounded-md mb-4"
           >
             <p>
@@ -510,6 +515,25 @@
     </footer>
 
     <script>
+      const links = {
+        whatsapp: "https://wa.me/6285382941480",
+      };
+
+      // Button Hubungi
+      document.getElementById("hubungi").addEventListener("click", function () {
+        window.location.href = links.whatsapp;
+      });
+      document
+        .getElementById("hubungi-2")
+        .addEventListener("click", function () {
+          window.location.href = links.whatsapp;
+        });
+      document
+        .getElementById("hubungi-3")
+        .addEventListener("click", function () {
+          window.location.href = links.whatsapp;
+        });
+
       document.querySelectorAll(".accordion-item").forEach((item) => {
         const toggleButton = item.querySelector(".accordion-toggle");
         const content = item.querySelector(".accordion-content");
