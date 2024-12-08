@@ -6,6 +6,9 @@
   .text-gradient {
     @apply bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-transparent;
   }
+  .text-gradient-2 {
+    @apply bg-gradient-to-r from-blue-500 to-purple-600 bg-clip-text text-transparent;
+  }
 
   .bg-gradient-1 {
     @apply bg-gradient-to-r from-blue-500 to-purple-600;
@@ -127,4 +130,11 @@
     font-weight: 900;
     font-style: italic;
   }
+
+  /* .accordion-item.active .icon-[tabler--chevron-left] {
+    transform: rotate(-90deg);
+  }
+  .accordion-item.active .accordion-toggle {
+    font-weight: bold;
+  } */
 }
