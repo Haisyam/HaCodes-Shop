@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="light">
+<html lang="en" class="dark">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -23,22 +23,24 @@
       }
     </style>
   </head>
-  <body class="poppins-thin">
+  <body class="poppins-thin dark:bg-black">
     <nav
-      class="navbar rounded-box flex w-full items-center justify-between gap-2 shadow sticky top-0"
+      class="navbar z-10 dark:bg-black rounded-box flex w-full items-center justify-between gap-2 shadow sticky top-0"
     >
       <div class="navbar-start md:ml-32 max-sm:w-1/4">
         <a class="text-gradient text-xl font-semibold" href="#"> HaCodes </a>
       </div>
       <div class="navbar-center max-sm:hidden">
-        <ul class="menu menu-horizontal p-0 font-medium">
+        <ul class="menu menu-horizontal p-0 font-medium bg-transparent">
           <li><a href="#" class="text-purple-700">Home</a></li>
           <li><a href="#">Product</a></li>
         </ul>
       </div>
       <div class="navbar-end items-center gap-4 md:mr-32">
         <a class="btn btn-square btn-secondary btn-outline" href="#">
-          <span class="icon-[tabler--sun-high] text-black"></span>
+          <span
+            class="icon-[tabler--sun-high] text-black dark:text-white"
+          ></span>
           <!-- <span class="icon-[tabler--arrow-right]"></span> -->
         </a>
         <div
@@ -71,7 +73,7 @@
         </div>
       </div>
     </nav>
-    <section class="px-5 mt-[30px]">
+    <section class="px-5 mt-[30px] md:mt-10 mb-28">
       <div class="flex flex-col justify-center items-center">
         <button
           class="text-gradient font-normal text-xs btn btn-primary btn-outline rounded-full mb-4"
@@ -83,7 +85,7 @@
           </p>
         </button>
         <h1
-          class="max-w-2xl text-black font-bold text-2xl md:text-4xl text-center mb-4"
+          class="max-w-2xl text-black font-bold text-2xl md:text-4xl text-center mb-4 dark:text-white"
         >
           Bangun Website Impian Anda
           <span class="text-gradient">dengan Source Code Siap Pakai</span>
@@ -106,54 +108,173 @@
         class="flex flex-col md:flex-row items-center justify-center gap-4 mt-8"
       >
         <div
-          class="max-w-xs bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden"
+          class="max-w-xs bg-white border border-gray-200 dark:border-none rounded-lg shadow-md overflow-hidden"
         >
-          <div class="p-4 bg-[#D1D5DB]">
+          <div class="p-4 bg-[#D1D5DB] dark:bg-[#1F2937]">
             <span
               class="icon-[tabler--shield-filled]"
               style="width: 40px; height: 40px; color: #2779ff"
             ></span>
-            <h2 class="text-md font-semibold text-gray-800">
+            <h2 class="text-md font-semibold text-gray-800 dark:text-white">
               Source Code Pengembangan Web
             </h2>
-            <p class="mt-2 text-sm font-normal text-gray-600">
+            <p
+              class="mt-2 text-sm font-normal text-gray-600 dark:text-gray-400"
+            >
               Source code siap pakai untuk website bisnis UMKM Anda. Hemat
               waktu, efisien, dan siap bantu tumbuhkan usaha Anda!
             </p>
           </div>
         </div>
         <div
-          class="max-w-xs bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden"
+          class="max-w-xs bg-white border border-gray-200 dark:border-none rounded-lg shadow-md overflow-hidden"
         >
-          <div class="p-4 bg-[#D1D5DB]">
+          <div class="p-4 bg-[#D1D5DB] dark:bg-[#1F2937]">
             <span
               class="icon-[tabler--devices-pc]"
               style="width: 40px; height: 40px; color: #22c55e"
             ></span>
-            <h2 class="text-md font-semibold text-gray-800">
-              Source Code Pengembangan Web
+            <h2 class="text-md font-semibold text-gray-800 dark:text-white">
+              Desain Responsif & Siap Pakai
             </h2>
-            <p class="mt-2 text-sm font-normal text-gray-600">
-              Source code siap pakai untuk website bisnis UMKM Anda. Hemat
-              waktu, efisien, dan siap bantu tumbuhkan usaha Anda!
+            <p
+              class="mt-2 text-sm font-normal text-gray-600 dark:text-gray-400"
+            >
+              Dapatkan source code desain responsif yang otomatis menyesuaikan
+              di semua perangkat, dari desktop hingga mobile.
             </p>
           </div>
         </div>
         <div
-          class="max-w-xs bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden"
+          class="max-w-xs bg-white border border-gray-200 dark:border-none rounded-lg shadow-md overflow-hidden"
         >
-          <div class="p-4 bg-[#D1D5DB]">
+          <div class="p-4 bg-[#D1D5DB] dark:bg-[#1F2937]">
             <span
               class="icon-[tabler--brand-speedtest]"
               style="width: 40px; height: 40px; color: #ef4444"
             ></span>
-            <h2 class="text-md font-semibold text-gray-800">
-              Source Code Pengembangan Web
+            <h2 class="text-md font-semibold text-gray-800 dark:text-white">
+              Source Code Instan
             </h2>
-            <p class="mt-2 text-sm font-normal text-gray-600">
-              Source code siap pakai untuk website bisnis UMKM Anda. Hemat
-              waktu, efisien, dan siap bantu tumbuhkan usaha Anda!
+            <p
+              class="mt-2 text-sm font-normal text-gray-600 dark:text-gray-400"
+            >
+              Dapatkan source code instan, langsung pakai, hemat waktu dan biaya
+              untuk tugas kuliah atau proyekmu!
             </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SECTION -->
+    <section class="">
+      <div class="flex flex-row justify-between px-7 md:px-36">
+        <h2
+          class="text-gradient font-semibold text-md md:text-3xl text-center mb-4"
+        >
+          Produk Rekomendasi
+        </h2>
+        <p class="font-semibold text-gray-500 underline link">
+          Lihat Selengkapnya
+        </p>
+      </div>
+      <div class="flex justify-center px-1 md:px-32">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6 p-6">
+          <!-- Card 1 -->
+          <div
+            class="bg-white rounded-lg shadow-lg overflow-hidden gradient-border"
+          >
+            <div class="bg-white dark:bg-black rounded-t-[26px]">
+              <img
+                alt="Web Paket Bundle Source code Html Css dan js"
+                class="w-60 h-60 p-3 mx-auto"
+                height="300"
+                src="https://storage.googleapis.com/a1aa/image/7dZkIRQM7UJePCwkuYexX0yGofZWDafzHa9jQhJf1Dal8IFfE.jpg"
+                width="400"
+              />
+            </div>
+            <div class="p-4 bg-white dark:bg-black rounded-b-[26px]">
+              <p class="text-gray-500 font-normal text-sm">Html,Css,JS</p>
+              <h2 class="text-lg font-semibold text-black dark:text-[#c8c8c9]">
+                (TERBATAS) 4 Web Paket Bundle Source code Html Css dan js
+              </h2>
+              <div class="flex justify-end items-center mt-4">
+                <button
+                  class="bg-black dark:bg-[#52525B] text-white px-[7px] md:px-[6px] py-[5px] md:py-[4px] text-xs font-semibold rounded-full"
+                >
+                  Order now
+                  <span
+                    class="ml-1 px-2 text-white font-semibold bg-[#3F3F46] dark:bg-[#3F3F46] rounded-full"
+                  >
+                    Rp 35.000,00
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 1 -->
+          <div
+            class="bg-white rounded-lg shadow-lg overflow-hidden gradient-border"
+          >
+            <div class="bg-white dark:bg-black rounded-t-[26px]">
+              <img
+                alt="Web Paket Bundle Source code Html Css dan js"
+                class="w-60 h-60 p-3 mx-auto"
+                height="300"
+                src="https://storage.googleapis.com/a1aa/image/7dZkIRQM7UJePCwkuYexX0yGofZWDafzHa9jQhJf1Dal8IFfE.jpg"
+                width="400"
+              />
+            </div>
+            <div class="p-4 bg-white dark:bg-black rounded-b-[26px]">
+              <p class="text-gray-500 font-normal text-sm">Html,Css,JS</p>
+              <h2 class="text-lg font-semibold text-black dark:text-[#c8c8c9]">
+                (TERBATAS) 4 Web Paket Bundle Source code Html Css dan js
+              </h2>
+              <div class="flex justify-end items-center mt-4">
+                <button
+                  class="bg-black dark:bg-[#52525B] text-white px-[7px] md:px-[6px] py-[5px] md:py-[4px] text-xs font-semibold rounded-full"
+                >
+                  Order now
+                  <span
+                    class="ml-1 px-2 text-white font-semibold bg-[#3F3F46] dark:bg-[#3F3F46] rounded-full"
+                  >
+                    Rp 35.000,00
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Card 1 -->
+          <div
+            class="bg-white rounded-lg shadow-lg overflow-hidden gradient-border"
+          >
+            <div class="bg-white dark:bg-black rounded-t-[26px]">
+              <img
+                alt="Web Paket Bundle Source code Html Css dan js"
+                class="w-60 h-60 p-3 mx-auto"
+                height="300"
+                src="https://storage.googleapis.com/a1aa/image/7dZkIRQM7UJePCwkuYexX0yGofZWDafzHa9jQhJf1Dal8IFfE.jpg"
+                width="400"
+              />
+            </div>
+            <div class="p-4 bg-white dark:bg-black rounded-b-[26px]">
+              <p class="text-gray-500 font-normal text-sm">Html,Css,JS</p>
+              <h2 class="text-lg font-semibold text-black dark:text-[#c8c8c9]">
+                (TERBATAS) 4 Web Paket Bundle Source code Html Css dan js
+              </h2>
+              <div class="flex justify-end items-center mt-4">
+                <button
+                  class="bg-black dark:bg-[#52525B] text-white px-[7px] md:px-[6px] py-[5px] md:py-[4px] text-xs font-semibold rounded-full"
+                >
+                  Order now
+                  <span
+                    class="ml-1 px-2 text-white font-semibold bg-[#3F3F46] dark:bg-[#3F3F46] rounded-full"
+                  >
+                    Rp 35.000,00
+                  </span>
+                </button>
+              </div>
+            </div>
           </div>
         </div>
       </div>

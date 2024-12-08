@@ -14,6 +14,9 @@
   .gradient-outline {
     @apply bg-gradient-to-r from-blue-500 to-purple-600;
   }
+  .gradient-border {
+    @apply p-[3px] bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 rounded-[26px];
+  }
 }
 
 @layer components {
